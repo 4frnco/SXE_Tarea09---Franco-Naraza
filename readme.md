@@ -128,7 +128,11 @@ En este ejercicio se han comprobado los diferentes tipos de producto disponibles
 
 Se ha creado un producto de tipo Bienes y se ha comprobado que permite activar la opción de rastreo de inventario.
 
+Rastreado:
 ![8.png](capturas/8.png)
+Sin rastrear:
+![27.png](capturas/27.png)
+
 
 ### 7.2. Producto de tipo Servicio
 
@@ -142,11 +146,15 @@ Se ha comprobado y configurado un producto de tipo Combinación.
 
 ![10.png](capturas/10.png)
 
-### 7.4. Creación de un cliente
+### 7.4. Creación de un cliente y Empresa
 
 Se ha creado el contacto `Cliente Prueba`, incluyendo sus datos de identificación y la información necesaria para realizar operaciones comerciales.
 
-![11.png](capturas/11.png)
+![28.png](capturas/28.png)
+
+Creación de empresa:
+![29.png](capturas/29.png)
+
 
 ### 7.5. Configuración de productos e impuestos
 
@@ -183,43 +191,43 @@ El resultado económico es el siguiente:
 | IVA | 9,40 € |
 | **Total** | **74,40 €** |
 
-![14.png](capturas/14.png)
+
 
 ### 8.2. Confirmación del pedido
 
 Después de crear el presupuesto, se ha confirmado para convertirlo en un pedido de venta.
 
-![15.png](capturas/15.png)
+
 
 ### 8.3. Creación de la factura
 
 A partir del pedido de venta se ha generado una factura. Inicialmente se encontraba en estado borrador.
 
-![16.png](capturas/16.png)
+![30.png](capturas/30.png)
 
 ### 8.4. Publicación de la factura
 
 Se ha publicado la factura para confirmar la operación contable.
 
-![17.png](capturas/17.png)
+![31.png](capturas/31.png)
 
 ### 8.5. Generación del PDF
 
 También se ha generado el documento PDF de la factura para comprobar su contenido.
 
-![18.png](capturas/18.png)
+![32.png](capturas/32.png)
 
 ### 8.6. Registro del pago
 
 Finalmente, se ha registrado el pago de la factura y se ha comprobado que su estado aparece como pagado.
 
-![19.png](capturas/19.png)
+![33.png](capturas/33.png)
 
 ### 8.7. Factura de proveedor
 
 Se ha localizado una factura de proveedor existente en los datos de demostración de Odoo.
 
-![20.png](capturas/20.png)
+![34.png](capturas/34.png)
 
 ### 8.8. Programación de una actividad
 
@@ -264,8 +272,13 @@ Mediante las herramientas de depuración se ha identificado:
 | Campo | Nombre técnico | Modelo |
 |---|---|---|
 | CIF/NIF | `vat` | `res.partner` |
+|Puesto de trabajo|`function`|`res.partner`|
 
-![25.png](capturas/25.png)
+
+![35.png](capturas/35.png)
+
+![36.png](capturas/36.png)
+
 
 ### 10.4. Modelo técnico de las facturas
 
@@ -275,12 +288,17 @@ El modelo técnico correspondiente a las facturas es:
 
 `account.move`
 
-![26.png](capturas/26.png)
+![37.png](capturas/37.png)
 
 ---
 
+# 11. Declaración de Incidencias:
+>La unica incidencia encontrada durante la práctica fue el cambio de empresa demo Americana a Española.
+> 
+> Dejando de lado eso todo bien.
 
-# 11. Declaración de uso de inteligencia artificial
+
+# 12. Declaración de uso de inteligencia artificial
 
 >  No ha sido necesario utilizar inteligencia artificial para realizar esta práctica, ya que la guía proporcionada por el profesor ha sido suficiente para comprender y completar los diferentes apartados.
 
